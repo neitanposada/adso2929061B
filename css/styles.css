@@ -68,11 +68,12 @@ body, html{
 /* 04 - GENERAL */
 /* - - - - - - - - - - - - - - - - */
 body {
-    font-family: var(--font-bd);
+    align-items: center;
     color: var(--color-2);
     display: flex;
+    font-family: var(--font-bd);
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     min-height: 100vh;
     nav{
         position: fixed;
@@ -177,7 +178,7 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 2rem;
+           margin-block: 2rem;
             justify-content: center;
             gap: 1rem;
             a:is(:link, :visited) {
